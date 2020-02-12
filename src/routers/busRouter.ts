@@ -16,4 +16,14 @@ busRouter.get('/destination/:destination', (req, res) => {
   res.send(busController.getByDestination(destination));
 });
 
+busRouter.get('/destination/:destination/:departureTime', (req, res) => {
+  const destination = req.params.destination;
+  const departureTime = req.params.departureTime;
+
+  if (!departureTime) {
+    res.redirect(`/destination/${destination}`);
+  }
+  busController.getByDepartureTime(destination, departureTime);
+});
+
 export default busRouter;

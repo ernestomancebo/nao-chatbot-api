@@ -6,6 +6,7 @@
   "dependencies": {
     "diskdb": "0.1.17",
     "express": "4.17.1",
+    "moment": "2.24.0",
     "swagger-ui-express": "4.1.3",
     "tsoa": "2.5.13"
   },
