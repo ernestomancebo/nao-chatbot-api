@@ -23,7 +23,7 @@ busRouter.get('/destination/:destination/:departureTime', (req, res) => {
   if (!departureTime) {
     res.redirect(`/destination/${destination}`);
   }
-  busController.getByDepartureTime(destination, departureTime);
+  res.send(busController.getByDepartureTime(destination, departureTime));
 });
 
 export default busRouter;
