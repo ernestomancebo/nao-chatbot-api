@@ -10,41 +10,18 @@ busRouter.get('/', (req, res) => {
 
 
 busRouter.get('/next', (req, res) => {
-  const destinations = busController.getNextDepartures();
-
-  let next = destinations[0];
-  let nextTime = buildMomentTime(next.departureTime);
-
-  for (const d of destinations) {
-    const dTime = buildMomentTime(d.departureTime);
-    if (dTime.isBefore(nextTime)) {
-      nextTime = dTime;
-      next = d;
-    }
-  }
-
-  res.send(next);
+  const nextJourneys = busController.getNextDepartures();
+  res.send(nextJourneys);
 });
 
-busRouter.get('/destination/:destination/next', (req, res) => {
+busRouter.get('/next/:destination', (req, res) => {
   const destination = req.params.destination;
-  const destinations = busController.getByDestination(destination);
+  const nextJourneys = busController.getNextDeparturesByDest(destination);
 
-  let next = destinations[0];
-  let nextTime = buildMomentTime(next.departureTime);
-
-  for (const d of destinations) {
-    const dTime = buildMomentTime(d.departureTime);
-    if (dTime.isBefore(nextTime)) {
-      nextTime = dTime;
-      next = d;
-    }
-  }
-
-  res.send(next);
+  res.send(nextJourneys);
 });
 
-busRouter.get('/destination/:destination', (req, res) => {
+busRouter.get('/to/:destination', (req, res) => {
   const destination = req.params.destination;
   if (!destination) {
     res.status(405).send("Param 'destination' missing");
@@ -53,7 +30,7 @@ busRouter.get('/destination/:destination', (req, res) => {
   res.send(busController.getByDestination(destination));
 });
 
-busRouter.get('/destination/:destination/:departureTime', (req, res) => {
+busRouter.get('/to/:destination/at/:departureTime', (req, res) => {
   const destination = req.params.destination;
   const departureTime = req.params.departureTime;
 
@@ -62,9 +39,5 @@ busRouter.get('/destination/:destination/:departureTime', (req, res) => {
   }
   res.send(busController.getByDepartureTime(destination, departureTime));
 });
-
-const buildMomentTime = (hour: string) => {
-  return moment(hour, "HH:mm");
-}
 
 export default busRouter;
