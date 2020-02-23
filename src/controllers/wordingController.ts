@@ -61,8 +61,8 @@ export const departureStatus = (journey: IJourney): string => {
     // Recalculate in an human readable time
     timeDiff = now.diff(journeyMoment, "minutes");
 
-    if (timeDiff > 60) {
-      timeDiff = journeyMoment.diff(now, "hours")
+    if (timeDiff >= 60) {
+      timeDiff = now.diff(journeyMoment, "hours")
       diffMeasurement = timeDiff === 1 ? "hour" : "hours";
     }
 
@@ -71,7 +71,7 @@ export const departureStatus = (journey: IJourney): string => {
     if (timeDiff <= 1) { diffMeasurement = "minute" }
     msg = `Walk to the terminal, your bus departs in ${timeDiff} ${diffMeasurement}`;
   } else {
-    if (timeDiff > 60) {
+    if (timeDiff >= 60) {
       timeDiff = journeyMoment.diff(now, "hour");
       diffMeasurement = timeDiff === 1 ? "hour" : "hours";
     }

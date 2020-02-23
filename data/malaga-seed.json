@@ -2,14 +2,342 @@
   "journeys": [
     {
       "index": 0,
-      "arrivalDate": 1581450300000,
-      "departureDate": 1581440400000,
-      "arrivalDataToFilter": "11/02/2020 20:45",
-      "departureDataToFilter": "11/02/2020 18:00",
+      "arrivalDate": 1582539300000,
+      "departureDate": 1582524900000,
+      "arrivalDataToFilter": "24/02/2020 11:15",
+      "departureDataToFilter": "24/02/2020 07:15",
+      "arrivalTime": "11:15",
+      "departureTime": "07:15",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Malaga",
+      "destinationId": "9085",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 19.09,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "2949",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": false,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 400,
+      "transfersTown": [],
+      "totalNumberOfStops": "11",
+      "companyService": "203"
+    },
+    {
+      "index": 1,
+      "arrivalDate": 1582546500000,
+      "departureDate": 1582536600000,
+      "arrivalDataToFilter": "24/02/2020 13:15",
+      "departureDataToFilter": "24/02/2020 10:30",
+      "arrivalTime": "13:15",
+      "departureTime": "10:30",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Malaga",
+      "destinationId": "9085",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Supra Economy"
+      ],
+      "serviceTypeIcon": "C",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 25.22,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "There are no seats available.",
+      "serviceCodes": "3412",
+      "canBeSold": "F",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "1",
+            "description": "WIFI",
+            "additionalInfo": "Free Wi-Fi connection on this service"
+          },
+          {
+            "code": "6",
+            "description": "Entertainment on board",
+            "additionalInfo": "Entertainment on board"
+          },
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 245,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 2,
+      "arrivalDate": 1582555500000,
+      "departureDate": 1582545600000,
+      "arrivalDataToFilter": "24/02/2020 15:45",
+      "departureDataToFilter": "24/02/2020 13:00",
+      "arrivalTime": "15:45",
+      "departureTime": "13:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Malaga",
+      "destinationId": "9085",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Supra Economy"
+      ],
+      "serviceTypeIcon": "C",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 24.12,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "7225",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "1",
+            "description": "WIFI",
+            "additionalInfo": "Free Wi-Fi connection on this service"
+          },
+          {
+            "code": "6",
+            "description": "Entertainment on board",
+            "additionalInfo": "Entertainment on board"
+          },
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 245,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 3,
+      "arrivalDate": 1582562700000,
+      "departureDate": 1582552800000,
+      "arrivalDataToFilter": "24/02/2020 17:45",
+      "departureDataToFilter": "24/02/2020 15:00",
+      "arrivalTime": "17:45",
+      "departureTime": "15:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Malaga",
+      "destinationId": "9085",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 19.09,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "2490",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 245,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 4,
+      "arrivalDate": 1582573500000,
+      "departureDate": 1582563600000,
+      "arrivalDataToFilter": "24/02/2020 20:45",
+      "departureDataToFilter": "24/02/2020 18:00",
       "arrivalTime": "20:45",
       "departureTime": "18:00",
-      "arrivalStrGeneral": "02/11/2020",
-      "departureStrGeneral": "02/11/2020",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Malaga",
       "destinationId": "9085",
@@ -78,15 +406,15 @@
       "companyService": "203"
     },
     {
-      "index": 1,
-      "arrivalDate": 1581455700000,
-      "departureDate": 1581445800000,
-      "arrivalDataToFilter": "11/02/2020 22:15",
-      "departureDataToFilter": "11/02/2020 19:30",
+      "index": 5,
+      "arrivalDate": 1582578900000,
+      "departureDate": 1582569000000,
+      "arrivalDataToFilter": "24/02/2020 22:15",
+      "departureDataToFilter": "24/02/2020 19:30",
       "arrivalTime": "22:15",
       "departureTime": "19:30",
-      "arrivalStrGeneral": "02/11/2020",
-      "departureStrGeneral": "02/11/2020",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Malaga",
       "destinationId": "9085",
@@ -165,8 +493,8 @@
       "companyService": "203"
     }
   ],
-  "people": 16,
+  "people": 20,
   "international": false,
-  "timestamp": "1581433335779",
+  "timestamp": "1582498359454",
   "isTrainTrip": false
 }

@@ -12,7 +12,7 @@ let journeys = [];
 fileNames.forEach(f => {
   fs.readFile(path.join(__dirname, f), (err, data) => {
     const seedFile = JSON.parse(data);
-    plainJourneys = Array.from(seedFile['journeys']).map((journey) => {
+    const plainJourneys = Array.from(seedFile['journeys']).map((journey) => {
       return {
         arrivalTime: journey.arrivalTime,
         departureTime: journey.departureTime,

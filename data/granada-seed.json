@@ -2,14 +2,14 @@
   "journeys": [
     {
       "index": 0,
-      "arrivalDate": 1581444900000,
-      "departureDate": 1581434100000,
-      "arrivalDataToFilter": "11/02/2020 19:15",
-      "departureDataToFilter": "11/02/2020 16:15",
-      "arrivalTime": "19:15",
-      "departureTime": "16:15",
-      "arrivalStrGeneral": "02/11/2020",
-      "departureStrGeneral": "02/11/2020",
+      "arrivalDate": 1582539300000,
+      "departureDate": 1582528500000,
+      "arrivalDataToFilter": "24/02/2020 11:15",
+      "departureDataToFilter": "24/02/2020 08:15",
+      "arrivalTime": "11:15",
+      "departureTime": "08:15",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Granada Bus Station",
       "destinationId": "9084",
@@ -45,9 +45,9 @@
           "showConditions": false
         }
       ],
-      "warning": "Ticket not available online. Visit a point of sale.",
-      "serviceCodes": "2480",
-      "canBeSold": "C",
+      "warning": "",
+      "serviceCodes": "2356",
+      "canBeSold": "V",
       "showShippingCompanyAlert": "N",
       "shippingCompanyCode": "",
       "shippingCompanyName": "",
@@ -65,7 +65,7 @@
             "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
           }
         ],
-        "guaranteedOwnBus": "N",
+        "guaranteedOwnBus": "S",
         "isDoubleDeckerBus": false,
         "isComfortBus": false,
         "isNightBus": false,
@@ -79,14 +79,14 @@
     },
     {
       "index": 1,
-      "arrivalDate": 1581448500000,
-      "departureDate": 1581437700000,
-      "arrivalDataToFilter": "11/02/2020 20:15",
-      "departureDataToFilter": "11/02/2020 17:15",
-      "arrivalTime": "20:15",
-      "departureTime": "17:15",
-      "arrivalStrGeneral": "02/11/2020",
-      "departureStrGeneral": "02/11/2020",
+      "arrivalDate": 1582542000000,
+      "departureDate": 1582531200000,
+      "arrivalDataToFilter": "24/02/2020 12:00",
+      "departureDataToFilter": "24/02/2020 09:00",
+      "arrivalTime": "12:00",
+      "departureTime": "09:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Granada Bus Station",
       "destinationId": "9084",
@@ -122,86 +122,9 @@
           "showConditions": false
         }
       ],
-      "warning": "",
-      "serviceCodes": "7771",
-      "canBeSold": "V",
-      "showShippingCompanyAlert": "N",
-      "shippingCompanyCode": "",
-      "shippingCompanyName": "",
-      "observations": "",
-      "busCharacteristic": {
-        "characteristicList": [
-          {
-            "code": "PET",
-            "description": "Pets",
-            "additionalInfo": "This service allows you to travel with your pet."
-          },
-          {
-            "code": "SPORT",
-            "description": "Sports equipment",
-            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
-          }
-        ],
-        "guaranteedOwnBus": "N",
-        "isDoubleDeckerBus": false,
-        "isComfortBus": false,
-        "isNightBus": false,
-        "isNonStopBus": true,
-        "isPMRSeatAvailable": false
-      },
-      "takes": 300,
-      "transfersTown": [],
-      "totalNumberOfStops": "0",
-      "companyService": "835"
-    },
-    {
-      "index": 2,
-      "arrivalDate": 1581451200000,
-      "departureDate": 1581440400000,
-      "arrivalDataToFilter": "11/02/2020 21:00",
-      "departureDataToFilter": "11/02/2020 18:00",
-      "arrivalTime": "21:00",
-      "departureTime": "18:00",
-      "arrivalStrGeneral": "02/11/2020",
-      "departureStrGeneral": "02/11/2020",
-      "departureStrLong": "",
-      "destinationName": "Granada Bus Station",
-      "destinationId": "9084",
-      "originName": "Seville (Plaza de Armas)",
-      "originId": "340",
-      "serviceTypeList": [
-        "Normal"
-      ],
-      "serviceTypeIcon": "N",
-      "numberPMRSeats": 0,
-      "handicappedAvailability": "NO_AVAILABLE",
-      "petAvailability": "AVAILABLE",
-      "sportAvailability": "AVAILABLE",
-      "transfersNumber": 0,
-      "fares": [
-        {
-          "index": 0,
-          "openReturnPrice": 0,
-          "price": 23.33,
-          "grossPrice": 0,
-          "fareType": "BASE",
-          "fareName": "",
-          "outwardReturnRequired": "N",
-          "isPromoted": false,
-          "isAlsaPass": false,
-          "isVoucher": false,
-          "promotionCodeList": [],
-          "promotionCodeLadderList": [],
-          "promotionCodeConditionsShowList": [],
-          "involveChangeToNewTicket": "",
-          "isOriginal": false,
-          "priceOriginal": 0,
-          "showConditions": false
-        }
-      ],
-      "warning": "",
+      "warning": "There are no seats available.",
       "serviceCodes": "2480",
-      "canBeSold": "V",
+      "canBeSold": "F",
       "showShippingCompanyAlert": "N",
       "shippingCompanyCode": "",
       "shippingCompanyName": "",
@@ -232,15 +155,15 @@
       "companyService": "203"
     },
     {
-      "index": 3,
-      "arrivalDate": 1581458400000,
-      "departureDate": 1581447600000,
-      "arrivalDataToFilter": "11/02/2020 23:00",
-      "departureDataToFilter": "11/02/2020 20:00",
-      "arrivalTime": "23:00",
-      "departureTime": "20:00",
-      "arrivalStrGeneral": "02/11/2020",
-      "departureStrGeneral": "02/11/2020",
+      "index": 2,
+      "arrivalDate": 1582545600000,
+      "departureDate": 1582534800000,
+      "arrivalDataToFilter": "24/02/2020 13:00",
+      "departureDataToFilter": "24/02/2020 10:00",
+      "arrivalTime": "13:00",
+      "departureTime": "10:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Granada Bus Station",
       "destinationId": "9084",
@@ -319,15 +242,574 @@
       "companyService": "203"
     },
     {
+      "index": 3,
+      "arrivalDate": 1582550100000,
+      "departureDate": 1582539300000,
+      "arrivalDataToFilter": "24/02/2020 14:15",
+      "departureDataToFilter": "24/02/2020 11:15",
+      "arrivalTime": "14:15",
+      "departureTime": "11:15",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Granada Bus Station",
+      "destinationId": "9084",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 23.33,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "5221",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 300,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "835"
+    },
+    {
       "index": 4,
-      "arrivalDate": 1581471900000,
-      "departureDate": 1581458400000,
-      "arrivalDataToFilter": "12/02/2020 02:45",
-      "departureDataToFilter": "11/02/2020 23:00",
+      "arrivalDate": 1582552800000,
+      "departureDate": 1582542000000,
+      "arrivalDataToFilter": "24/02/2020 15:00",
+      "departureDataToFilter": "24/02/2020 12:00",
+      "arrivalTime": "15:00",
+      "departureTime": "12:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Granada Bus Station",
+      "destinationId": "9084",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 23.33,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "2480",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 300,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 5,
+      "arrivalDate": 1582565400000,
+      "departureDate": 1582554600000,
+      "arrivalDataToFilter": "24/02/2020 18:30",
+      "departureDataToFilter": "24/02/2020 15:30",
+      "arrivalTime": "18:30",
+      "departureTime": "15:30",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Granada Bus Station",
+      "destinationId": "9084",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Supra Economy"
+      ],
+      "serviceTypeIcon": "C",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 30.13,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "3418",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "1",
+            "description": "WIFI",
+            "additionalInfo": "Free Wi-Fi connection on this service"
+          },
+          {
+            "code": "6",
+            "description": "Entertainment on board",
+            "additionalInfo": "Entertainment on board"
+          },
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 300,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 6,
+      "arrivalDate": 1582568100000,
+      "departureDate": 1582557300000,
+      "arrivalDataToFilter": "24/02/2020 19:15",
+      "departureDataToFilter": "24/02/2020 16:15",
+      "arrivalTime": "19:15",
+      "departureTime": "16:15",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Granada Bus Station",
+      "destinationId": "9084",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 23.33,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "2480",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 300,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 7,
+      "arrivalDate": 1582571700000,
+      "departureDate": 1582560900000,
+      "arrivalDataToFilter": "24/02/2020 20:15",
+      "departureDataToFilter": "24/02/2020 17:15",
+      "arrivalTime": "20:15",
+      "departureTime": "17:15",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Granada Bus Station",
+      "destinationId": "9084",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 23.33,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "7771",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 300,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "835"
+    },
+    {
+      "index": 8,
+      "arrivalDate": 1582574400000,
+      "departureDate": 1582563600000,
+      "arrivalDataToFilter": "24/02/2020 21:00",
+      "departureDataToFilter": "24/02/2020 18:00",
+      "arrivalTime": "21:00",
+      "departureTime": "18:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Granada Bus Station",
+      "destinationId": "9084",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 23.33,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "2480",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 300,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 9,
+      "arrivalDate": 1582581600000,
+      "departureDate": 1582570800000,
+      "arrivalDataToFilter": "24/02/2020 23:00",
+      "departureDataToFilter": "24/02/2020 20:00",
+      "arrivalTime": "23:00",
+      "departureTime": "20:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Granada Bus Station",
+      "destinationId": "9084",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Supra Economy"
+      ],
+      "serviceTypeIcon": "C",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 30.13,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "3146",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "1",
+            "description": "WIFI",
+            "additionalInfo": "Free Wi-Fi connection on this service"
+          },
+          {
+            "code": "6",
+            "description": "Entertainment on board",
+            "additionalInfo": "Entertainment on board"
+          },
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 300,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "203"
+    },
+    {
+      "index": 10,
+      "arrivalDate": 1582595100000,
+      "departureDate": 1582581600000,
+      "arrivalDataToFilter": "25/02/2020 02:45",
+      "departureDataToFilter": "24/02/2020 23:00",
       "arrivalTime": "02:45",
       "departureTime": "23:00",
-      "arrivalStrGeneral": "02/12/2020",
-      "departureStrGeneral": "02/11/2020",
+      "arrivalStrGeneral": "02/25/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Granada Bus Station",
       "destinationId": "9084",
@@ -396,8 +878,8 @@
       "companyService": "835"
     }
   ],
-  "people": 52,
+  "people": 41,
   "international": false,
-  "timestamp": "1581433230574",
+  "timestamp": "1582498413275",
   "isTrainTrip": false
 }

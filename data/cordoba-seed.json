@@ -2,14 +2,399 @@
   "journeys": [
     {
       "index": 0,
-      "arrivalDate": 1581449340000,
-      "departureDate": 1581442200000,
-      "arrivalDataToFilter": "11/02/2020 20:29",
-      "departureDataToFilter": "11/02/2020 18:30",
+      "arrivalDate": 1582536600000,
+      "departureDate": 1582529400000,
+      "arrivalDataToFilter": "24/02/2020 10:30",
+      "departureDataToFilter": "24/02/2020 08:30",
+      "arrivalTime": "10:30",
+      "departureTime": "08:30",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Cordoba",
+      "destinationId": "2371",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 12.67,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "2852",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": false,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 200,
+      "transfersTown": [],
+      "totalNumberOfStops": "7",
+      "companyService": "203"
+    },
+    {
+      "index": 1,
+      "arrivalDate": 1582538700000,
+      "departureDate": 1582531200000,
+      "arrivalDataToFilter": "24/02/2020 11:05",
+      "departureDataToFilter": "24/02/2020 09:00",
+      "arrivalTime": "11:05",
+      "departureTime": "09:00",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Cordoba",
+      "destinationId": "2371",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 12.67,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "8455",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": false,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 205,
+      "transfersTown": [],
+      "totalNumberOfStops": "2",
+      "companyService": "580"
+    },
+    {
+      "index": 2,
+      "arrivalDate": 1582550700000,
+      "departureDate": 1582543800000,
+      "arrivalDataToFilter": "24/02/2020 14:25",
+      "departureDataToFilter": "24/02/2020 12:30",
+      "arrivalTime": "14:25",
+      "departureTime": "12:30",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Cordoba",
+      "destinationId": "2371",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 12.67,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "2852",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": false,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 155,
+      "transfersTown": [],
+      "totalNumberOfStops": "1",
+      "companyService": "203"
+    },
+    {
+      "index": 3,
+      "arrivalDate": 1582562700000,
+      "departureDate": 1582554600000,
+      "arrivalDataToFilter": "24/02/2020 17:45",
+      "departureDataToFilter": "24/02/2020 15:30",
+      "arrivalTime": "17:45",
+      "departureTime": "15:30",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Cordoba",
+      "destinationId": "2371",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 12.67,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "3314",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": false,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 215,
+      "transfersTown": [],
+      "totalNumberOfStops": "2",
+      "companyService": "203"
+    },
+    {
+      "index": 4,
+      "arrivalDate": 1582563600000,
+      "departureDate": 1582557300000,
+      "arrivalDataToFilter": "24/02/2020 18:00",
+      "departureDataToFilter": "24/02/2020 16:15",
+      "arrivalTime": "18:00",
+      "departureTime": "16:15",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
+      "departureStrLong": "",
+      "destinationName": "Cordoba",
+      "destinationId": "2371",
+      "originName": "Seville (Plaza de Armas)",
+      "originId": "340",
+      "serviceTypeList": [
+        "Normal"
+      ],
+      "serviceTypeIcon": "N",
+      "numberPMRSeats": 0,
+      "handicappedAvailability": "NO_AVAILABLE",
+      "petAvailability": "AVAILABLE",
+      "sportAvailability": "AVAILABLE",
+      "transfersNumber": 0,
+      "fares": [
+        {
+          "index": 0,
+          "openReturnPrice": 0,
+          "price": 12.67,
+          "grossPrice": 0,
+          "fareType": "BASE",
+          "fareName": "",
+          "outwardReturnRequired": "N",
+          "isPromoted": false,
+          "isAlsaPass": false,
+          "isVoucher": false,
+          "promotionCodeList": [],
+          "promotionCodeLadderList": [],
+          "promotionCodeConditionsShowList": [],
+          "involveChangeToNewTicket": "",
+          "isOriginal": false,
+          "priceOriginal": 0,
+          "showConditions": false
+        }
+      ],
+      "warning": "",
+      "serviceCodes": "8455",
+      "canBeSold": "V",
+      "showShippingCompanyAlert": "N",
+      "shippingCompanyCode": "",
+      "shippingCompanyName": "",
+      "observations": "",
+      "busCharacteristic": {
+        "characteristicList": [
+          {
+            "code": "PET",
+            "description": "Pets",
+            "additionalInfo": "This service allows you to travel with your pet."
+          },
+          {
+            "code": "SPORT",
+            "description": "Sports equipment",
+            "additionalInfo": "This service allows you to travel with a bicycle or surfboard."
+          }
+        ],
+        "guaranteedOwnBus": "N",
+        "isDoubleDeckerBus": false,
+        "isComfortBus": false,
+        "isNightBus": false,
+        "isNonStopBus": true,
+        "isPMRSeatAvailable": false
+      },
+      "takes": 145,
+      "transfersTown": [],
+      "totalNumberOfStops": "0",
+      "companyService": "580"
+    },
+    {
+      "index": 5,
+      "arrivalDate": 1582572540000,
+      "departureDate": 1582565400000,
+      "arrivalDataToFilter": "24/02/2020 20:29",
+      "departureDataToFilter": "24/02/2020 18:30",
       "arrivalTime": "20:29",
       "departureTime": "18:30",
-      "arrivalStrGeneral": "02/11/2020",
-      "departureStrGeneral": "02/11/2020",
+      "arrivalStrGeneral": "02/24/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Cordoba",
       "destinationId": "2371",
@@ -78,15 +463,15 @@
       "companyService": "203"
     },
     {
-      "index": 1,
-      "arrivalDate": 1581462300000,
-      "departureDate": 1581454800000,
-      "arrivalDataToFilter": "12/02/2020 00:05",
-      "departureDataToFilter": "11/02/2020 22:00",
+      "index": 6,
+      "arrivalDate": 1582585500000,
+      "departureDate": 1582578000000,
+      "arrivalDataToFilter": "25/02/2020 00:05",
+      "departureDataToFilter": "24/02/2020 22:00",
       "arrivalTime": "00:05",
       "departureTime": "22:00",
-      "arrivalStrGeneral": "02/12/2020",
-      "departureStrGeneral": "02/11/2020",
+      "arrivalStrGeneral": "02/25/2020",
+      "departureStrGeneral": "02/24/2020",
       "departureStrLong": "",
       "destinationName": "Cordoba",
       "destinationId": "2371",
@@ -155,8 +540,8 @@
       "companyService": "580"
     }
   ],
-  "people": 33,
+  "people": 21,
   "international": false,
-  "timestamp": "1581434240105",
+  "timestamp": "1582492954373",
   "isTrainTrip": false
 }
