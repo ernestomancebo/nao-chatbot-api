@@ -5,16 +5,11 @@ import * as journeyData from "../data/journeyData";
 export const getAllBusses = () => journeyData.getAll();
 export const getByDestination = (destination: string) => journeyData.getByDestination(destination);
 
-export const getByDepartureTime = (destination: string, departureTime: string) => {
+export const getByDepartureTime = (destination: string, departureTime: string): IJourney => {
   const journeys = getByDestination(destination);
   const journey = journeys.find(j => j.departureTime === departureTime);
 
-  if (!journey) {
-    return null;
-  }
-
-
-  return { journey, fromNow: 'fromNow' };
+  return journey;
 }
 
 export const getNextDepartures = (): IJourney[] => {

@@ -1,5 +1,5 @@
 import { IJourney } from "../data/IJourney";
-import { getReadableHour } from '../util';
+import { getReadableHour, momentNow, buildMomentFrom24h } from '../util';
 
 const NO_DEPARTURE = 'There is no journeys.';
 
@@ -46,6 +46,41 @@ export const nextDepartureTo = (journeys: IJourney[]): string => {
   return msg;
 }
 
+
+export const departureStatus = (journey: IJourney): string => {
+  if (!journey) { return NO_DEPARTURE; }
+
+  const journeyMoment = buildMomentFrom24h(journey.departureTime);
+  const now = momentNow();
+
+  let timeDiff = journeyMoment.diff(now, "minutes");
+  let diffMeasurement = "minutes";
+  let msg = "";
+
+  if (now.isSameOrAfter(journeyMoment)) {
+    // Recalculate in an human readable time
+    timeDiff = now.diff(journeyMoment, "minutes");
+
+    if (timeDiff > 60) {
+      timeDiff = journeyMoment.diff(now, "hours")
+      diffMeasurement = timeDiff === 1 ? "hour" : "hours";
+    }
+
+    msg = `I am so sorry, your bus departed ${timeDiff} ${diffMeasurement} ago`;
+  } else if (now.isSameOrBefore(journeyMoment) && timeDiff <= 10) {
+    if (timeDiff <= 1) { diffMeasurement = "minute" }
+    msg = `Walk to the terminal, your bus departs in ${timeDiff} ${diffMeasurement}`;
+  } else {
+    if (timeDiff > 60) {
+      timeDiff = journeyMoment.diff(now, "hour");
+      diffMeasurement = timeDiff === 1 ? "hour" : "hours";
+    }
+
+    msg = `You are on time, your bus departs in ${timeDiff} ${diffMeasurement}`;
+  }
+
+  return msg;
+}
 
 export const baseWordingConfig = () => {
   const config: WordingConfig = {
