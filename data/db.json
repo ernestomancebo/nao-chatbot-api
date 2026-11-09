@@ -1,0 +1,56 @@
+[
+  {
+    "arrivalTime": "20:29",
+    "departureTime": "18:30",
+    "destinationName": "Cordoba",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "00:05",
+    "departureTime": "22:00",
+    "destinationName": "Cordoba",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "20:45",
+    "departureTime": "18:00",
+    "destinationName": "Malaga",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "22:15",
+    "departureTime": "19:30",
+    "destinationName": "Malaga",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "19:15",
+    "departureTime": "16:15",
+    "destinationName": "Granada Bus Station",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "20:15",
+    "departureTime": "17:15",
+    "destinationName": "Granada Bus Station",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "21:00",
+    "departureTime": "18:00",
+    "destinationName": "Granada Bus Station",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "23:00",
+    "departureTime": "20:00",
+    "destinationName": "Granada Bus Station",
+    "originName": "Seville (Plaza de Armas)"
+  },
+  {
+    "arrivalTime": "02:45",
+    "departureTime": "23:00",
+    "destinationName": "Granada Bus Station",
+    "originName": "Seville (Plaza de Armas)"
+  }
+]
